@@ -6,11 +6,9 @@ function helloword() {
 function add(a, b) {
     return a + b;
 }
-function Utils() {
-    return {
-        helloword,
-        add
-    };
-}
+const Utils = {
+    helloword,
+    add
+};
 module.exports = Utils;
 //# sourceMappingURL=Utils.js.map

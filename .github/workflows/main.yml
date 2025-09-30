@@ -1,0 +1,8 @@
+name: hello-world
+on: push
+jobs:
+  my-job: 
+      runs-on: ubantu-latest
+      steps: 
+        - name: my-staep
+          run: echo "hello world"

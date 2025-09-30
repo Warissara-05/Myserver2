@@ -8,5 +8,5 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-    - name: rum print
+    - name: run print
       run: echo "main2"

@@ -18,7 +18,7 @@ mongoose_1.default.connect(mongoURI).then(() => {
     console.error("Error connecting to MongoDB", err);
 });
 app.use(Express.static(path_1.default.join(__dirname, 'public')));
-const port = 3000;
+const port = 80;
 // app.use("/api", userRoutes);
 app.get("/", (req, res) => {
     res.send("Hello, World!");

@@ -1,9 +1,13 @@
 {
   "dependencies": {
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongose": "^0.0.2-security"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
+    "@types/mongoose": "^5.11.96",
     "@types/node": "^24.6.0",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
